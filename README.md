@@ -21,3 +21,8 @@
 
 * Adding coefficient to LUT:
   - creating MATLAB/octave script (`print_coeffs_lut.m`) to convert signed coefficient into hex applicable for `lut.vs`
+
+## Task 4: RTL Verification
+
+* Performing Verilator simulation
+* Analyzing GTKWave waveforms 
