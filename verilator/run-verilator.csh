@@ -2,7 +2,7 @@
 
 rm -rf run-verilator.log
 
-set TOP_DIR = ${HOME}/prj/coding-exercise2s
+set TOP_DIR = ${HOME}/Documents/intel/intel_job_interview
 set ACT_DIR = ${TOP_DIR}/libs/ac_types/include
 set CPP_DIR = ${TOP_DIR}/c++-model
 set RTL_DIR = ${TOP_DIR}/rtl-model
@@ -41,7 +41,6 @@ verilator \
     --timescale 1ps/1ps \
     --timescale-override 1ps/1ps \
     --top-module ${top_module} \
-    --clk screuclk \
     \
     +define+NOFLOPDELAY=1 \
     \
