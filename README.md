@@ -14,10 +14,10 @@
  
 ## Task 3: Design RTL model
 
-* Implementing missing RTL components
-  - quadra.vh
-  - quadra.vs
-  - quadra_top.vs
- 
- * Adding coefficient to LUT
-  - creating MATLAB/octave script (`print_coeffs.m`) to convert signed coefficient into hex applicable for lut.vs
+* Implementing missing RTL components:
+  - `quadra.vh`
+  - `quadra.vs`
+  - `quadra_top.vs`
+
+* Adding coefficient to LUT:
+  - creating MATLAB/octave script (`print_coeffs_lut.m`) to convert signed coefficient into hex applicable for `lut.vs`
