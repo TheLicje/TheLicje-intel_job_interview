@@ -1,7 +1,7 @@
 #! /bin/csh -f
 
-./run-clean.csh
+tcsh run-clean.csh
 
-./run-verilator.csh
+tcsh run-verilator.csh
 
-./run-binary.csh
+tcsh run-binary.csh

@@ -131,6 +131,8 @@ inline void checkOutput
 {
     using namespace std;
 
+	if (!top->y_dv) return;
+
     x_fxd_t x_fxd = lat_fifo.front();
                     lat_fifo.pop_front();
 
@@ -200,8 +202,8 @@ void testQuadra
     using namespace std;
 
     // Test params:
-//  uint32_t x_start = 0x000000; // 0.0
-    uint32_t x_start = 0xfffff0;
+//	uint32_t x_start = 0x000000; // 0.0
+	uint32_t x_start = 0xffff00;
     uint32_t x_stop  = 0xffffff; // 1.999...
     uint32_t x_step  = 0x000001; // exhaustive test
 //  uint32_t x_step  = 0x000001; // sparse test
