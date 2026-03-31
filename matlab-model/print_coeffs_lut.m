@@ -2,12 +2,12 @@
 ## Convert signed coeffs to hex formated for lut.sv:
 ##
 
-load coeffs.txt
+load coeffs_lut.txt
 
-k = coeffs(:,1);
-a = coeffs(:,2);
-b = coeffs(:,3);
-c = coeffs(:,4);
+k = coeffs_lut(:,1);
+a = coeffs_lut(:,2);
+b = coeffs_lut(:,3);
+c = coeffs_lut(:,4);
 
 K = length(k);
 
